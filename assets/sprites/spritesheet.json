@@ -1,0 +1,345 @@
+{
+	"textures": [
+		{
+			"image": "spritesheet.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1010,
+				"h": 512
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "ship.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 448,
+						"h": 202
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 448,
+						"h": 202
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 448,
+						"h": 202
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "explosion animation 4.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 293,
+						"h": 277
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 293,
+						"h": 277
+					},
+					"frame": {
+						"x": 1,
+						"y": 205,
+						"w": 293,
+						"h": 277
+					},
+					"anchor": {
+						"x": 0.505119,
+						"y": 0.548736
+					}
+				},
+				{
+					"filename": "explosion animation 5.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 247,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 247,
+						"h": 216
+					},
+					"frame": {
+						"x": 296,
+						"y": 205,
+						"w": 247,
+						"h": 216
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "boost2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 88
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 88
+					},
+					"frame": {
+						"x": 296,
+						"y": 423,
+						"w": 201,
+						"h": 88
+					},
+					"anchor": {
+						"x": 0.99005,
+						"y": 0.431818
+					}
+				},
+				{
+					"filename": "flame1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 78
+					},
+					"frame": {
+						"x": 499,
+						"y": 423,
+						"w": 176,
+						"h": 78
+					},
+					"anchor": {
+						"x": 0.977273,
+						"y": 0.448718
+					}
+				},
+				{
+					"filename": "explosion animation 7.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 194,
+						"h": 189
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 194,
+						"h": 189
+					},
+					"frame": {
+						"x": 451,
+						"y": 1,
+						"w": 194,
+						"h": 189
+					},
+					"anchor": {
+						"x": 0.546392,
+						"y": 0.534392
+					}
+				},
+				{
+					"filename": "explosion animation 3.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 211,
+						"h": 211
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 211,
+						"h": 211
+					},
+					"frame": {
+						"x": 545,
+						"y": 192,
+						"w": 211,
+						"h": 211
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "boost1.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 201,
+						"h": 93
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 201,
+						"h": 93
+					},
+					"frame": {
+						"x": 677,
+						"y": 405,
+						"w": 201,
+						"h": 93
+					},
+					"anchor": {
+						"x": 0.995025,
+						"y": 0.55914
+					}
+				},
+				{
+					"filename": "explosion animation 6.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 193,
+						"h": 184
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 193,
+						"h": 184
+					},
+					"frame": {
+						"x": 647,
+						"y": 1,
+						"w": 193,
+						"h": 184
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "explosion animation 2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 198,
+						"h": 142
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 198,
+						"h": 142
+					},
+					"frame": {
+						"x": 758,
+						"y": 187,
+						"w": 198,
+						"h": 142
+					},
+					"anchor": {
+						"x": 0.469697,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "flame2.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 176,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 176,
+						"h": 71
+					},
+					"frame": {
+						"x": 758,
+						"y": 331,
+						"w": 176,
+						"h": 71
+					},
+					"anchor": {
+						"x": 0.982955,
+						"y": 0.478873
+					}
+				},
+				{
+					"filename": "explosion animation.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 111,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 111,
+						"h": 103
+					},
+					"frame": {
+						"x": 880,
+						"y": 404,
+						"w": 111,
+						"h": 103
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				{
+					"filename": "explosion animation 8.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 167,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 167,
+						"h": 167
+					},
+					"frame": {
+						"x": 842,
+						"y": 1,
+						"w": 167,
+						"h": 167
+					},
+					"anchor": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:0937e61754cd576ba563ef530f27ddc3:dec0a2ba6779249c216d3b58b43032ac:729adc6043343cfda41c447ce8f464d6$"
+	}
+}

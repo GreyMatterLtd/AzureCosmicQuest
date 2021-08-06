@@ -1,0 +1,29 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"lightbeam1": {
+		"type": "fromPhysicsEditor",
+		"label": "lightbeam",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "lightbeam",
+				"isSensor": true,
+				"vertices": [
+					[ { "x":63, "y":729.5 }, { "x":73.5, "y":723 }, { "x":85.5, "y":700 }, { "x":104.5, "y":612 }, { "x":115.5, "y":496 }, { "x":25.5, "y":640 }, { "x":41.5, "y":704 }, { "x":49.5, "y":720 } ],
+					[ { "x":25.5, "y":640 }, { "x":115.5, "y":496 }, { "x":118.5, "y":352 }, { "x":101.5, "y":132 }, { "x":43.5, "y":56 }, { "x":23.5, "y":136 }, { "x":10.5, "y":264 }, { "x":7.5, "y":424 } ],
+					[ { "x":101.5, "y":132 }, { "x":82.5, "y":56 }, { "x":63, "y":34.5 }, { "x":62, "y":34.5 }, { "x":43.5, "y":56 } ]
+				]
+			}
+		]
+	}
+}
