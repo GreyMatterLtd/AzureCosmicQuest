@@ -1101,7 +1101,7 @@
                 {
                  "height":0,
                  "id":44,
-                 "name":"debris1",
+                 "name":"debris_3",
                  "point":true,
                  "properties":[
                         {
@@ -1124,7 +1124,7 @@
                 {
                  "height":0,
                  "id":126,
-                 "name":"debris1",
+                 "name":"debris_2",
                  "point":true,
                  "properties":[
                         {
@@ -1147,7 +1147,7 @@
                 {
                  "height":0,
                  "id":127,
-                 "name":"debris1",
+                 "name":"debris_2",
                  "point":true,
                  "properties":[
                         {
@@ -1170,7 +1170,7 @@
                 {
                  "height":0,
                  "id":128,
-                 "name":"debris1",
+                 "name":"debris_1",
                  "point":true,
                  "properties":[
                         {
@@ -1193,7 +1193,7 @@
                 {
                  "height":0,
                  "id":129,
-                 "name":"debris1",
+                 "name":"debris_1",
                  "point":true,
                  "properties":[
                         {
@@ -1229,6 +1229,22 @@
                  "id":72,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1253,6 +1269,22 @@
                  "id":74,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":-300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1265,6 +1297,22 @@
                  "id":88,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":500
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1289,6 +1337,22 @@
                  "id":90,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveX",
+                         "type":"float",
+                         "value":-200
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1325,6 +1389,22 @@
                  "id":93,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":200
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1361,6 +1441,22 @@
                  "id":96,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveX",
+                         "type":"float",
+                         "value":200
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1469,6 +1565,22 @@
                  "id":108,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":100
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1481,6 +1593,22 @@
                  "id":109,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveX",
+                         "type":"float",
+                         "value":-400
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1517,6 +1645,22 @@
                  "id":112,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":-300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1529,6 +1673,22 @@
                  "id":113,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1541,6 +1701,22 @@
                  "id":114,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveY",
+                         "type":"float",
+                         "value":300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1589,6 +1765,22 @@
                  "id":133,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveX",
+                         "type":"float",
+                         "value":300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1601,6 +1793,22 @@
                  "id":134,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveX",
+                         "type":"float",
+                         "value":300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
@@ -1613,6 +1821,22 @@
                  "id":135,
                  "name":"pickups1",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"moeHold",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveDuration",
+                         "type":"float",
+                         "value":858
+                        }, 
+                        {
+                         "name":"moveX",
+                         "type":"float",
+                         "value":300
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
