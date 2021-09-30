@@ -1,0 +1,28 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"debris_4": {
+		"type": "fromPhysicsEditor",
+		"label": "debris_4",
+		"isStatic": false,
+		"density": 20,
+		"restitution": 0,
+		"friction": 0,
+		"frictionAir": 0,
+		"frictionStatic": 0,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "debris",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":48, "y":9.5 }, { "x":16, "y":7.5 }, { "x":15, "y":7.5 }, { "x":22.5, "y":70 }, { "x":32, "y":87.5 }, { "x":62.5, "y":25 } ],
+					[ { "x":4, "y":58.5 }, { "x":22.5, "y":70 }, { "x":15, "y":7.5 }, { "x":0.5, "y":46 } ]
+				]
+			}
+		]
+	}
+}
