@@ -25,6 +25,9 @@
     </script>
     <style>
       body { background: #000; color:#fff;}
+      #linkedin { 
+        display:none; 
+      }
       #form, #share {
         position: absolute; 
         left: 0px;
@@ -77,6 +80,7 @@
         height: 100%;
         width: 80%;
         margin:0px auto;
+        font-size: 1.2rem;
       }
       #share.small .content,
       #form.small .content {
@@ -99,7 +103,11 @@
     </style>
   </head>
   <body>
-
+  <div id="linkedin">
+    <h1>I just completed the Azure Cosmic Quest!</h1>
+    <p>In a galaxy deep in space a team of IT specialists are on a cosmic quest to find the pillars of Azure.</p>
+    <p>As their pilot, your mission is to guide them safely through deep space, unlocking each stage of architectural excellence, while avoiding obstacles that could crash the ship and jeopardise the mission.</p>
+  </div>
   <div id="game"></div>
   <div id="form">
     <div class="content">
@@ -110,7 +118,7 @@
         </p>
         <span data-gator-form="593"></span>
         <div id="postform"></div>
-        <p>Competition ends 31 December 2021. T&C's | Privacy Policy</p>
+        <p>Competition ends 31 December 2021. <a href="https://greymatter.com/corporate/wp-content/uploads/2021/10/Azure-Cosmic-Quest-TCs-Branded.pdf" target="_blank">T&C's</a> | <a href="https://greymatter.com/corporate/privacy/" target="_blank">Privacy Policy</a></p>
         <p><a href="#" id="score_only">No thanks, just show me my score</a></p>
       </div>
     </div>
@@ -152,25 +160,6 @@
   
   <script src="https://cgtforms.com/greymatterlz/smartforms/547b9fa9-1a8d-4cf2-9112-f3e79bdc1cfb.js" type="text/javascript"></script>
   <script>
-    function waitFor(checkingCallback, doneCallback) {
-    var interval = setInterval(function() {
-        if(checkingCallback()) {
-          doneCallback();
-          clearInterval(interval);
-          interval = null;
-        }
-      }, 300);
-    }
-
-    // we wait for the _gf object and the _gf.ready function to be defined
-    // before calling _gf.ready with the form id
-    waitFor(
-      () => { return _gf && _gf.ready && _gf.ready(593) },
-      () => {
-        $('#form input:not(.gf__submit), #form select').addClass('form-control');
-        $('#form input.gf__submit').addClass('btn btn-primary');
-      }
-    );
     $('#score_only').on('click', () => {
       document.getElementById('form').remove();
       window.phaserGame.scene.keys['end-scene'].doScoreReveal();
@@ -190,6 +179,26 @@
         }
       }
     }, 2000);
+
+    function waitFor(checkingCallback, doneCallback) {
+    var interval = setInterval(function() {
+        if(checkingCallback()) {
+          doneCallback();
+          clearInterval(interval);
+          interval = null;
+        }
+      }, 1000);
+    };
+
+    // we wait for the _gf object and the _gf.ready function to be defined
+    // before calling _gf.ready with the form id
+    waitFor(
+      () => { return _gf && _gf.ready && _gf.ready(593) },
+      () => {
+        $('#form input:not(.gf__submit), #form select').addClass('form-control');
+        $('#form input.gf__submit').addClass('btn btn-primary');
+      }
+    );
   </script>
   <script type="text/javascript">
     _linkedin_partner_id = "525436";
