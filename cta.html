@@ -154,6 +154,14 @@
       () => {
         $('#form input:not(.gf__submit), #form select').addClass('form-control');
         $('#form input.gf__submit').addClass('btn btn-primary');
+
+        // eslint-disable-next-line no-undef, no-unused-vars
+        _gf.on(593, 'success', (form, values) => {
+            setTimeout(2000, () => {
+                document.getElementById('form').remove();
+                window.alert('dummy score reveal');
+            });
+        });
       }
     );
   </script>
