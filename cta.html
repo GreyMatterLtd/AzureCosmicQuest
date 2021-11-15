@@ -157,10 +157,10 @@
 
         // eslint-disable-next-line no-undef, no-unused-vars
         _gf.on(593, 'success', (form, values) => {
-            setTimeout(2000, () => {
+            setTimeout(() => {
                 document.getElementById('form').remove();
                 window.alert('dummy score reveal');
-            });
+            }, 2000);
         });
       }
     );
